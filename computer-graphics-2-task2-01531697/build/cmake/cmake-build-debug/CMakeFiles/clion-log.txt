@@ -1,0 +1,17 @@
+/snap/clion/107/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake
+CMake Error at CMakeLists.txt:1 (make_minimum_required):
+  Unknown CMake command "make_minimum_required".
+
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.15)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring incomplete, errors occurred!
+See also "/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/CMakeFiles/CMakeOutput.log".

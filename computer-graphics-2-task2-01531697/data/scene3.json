@@ -1,0 +1,44 @@
+{
+    "dt": 0.004999999888241291,
+    "damp": 0.996999979019165,
+    "fixup_iterations": 30,
+    "fixup_percent": 0.30000001192092898,
+    "cloth_size_x": 1.0,
+    "cloth_size_y": 1.0,
+    "grid_size_x": 50,
+    "grid_size_y": 50,
+    "cloth_mass": 1.0,
+    "cloth_y_offset": 0.5,
+    "gravity": [
+        0.0,
+        -9.800000190734864,
+        0.0
+    ],
+    "wind": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "wind_multiplier": 1.0,
+    "wind_per_particle_factor": 0.00800000037997961,
+    "fixed_particles": [
+        [
+            0,
+            0
+        ],
+        [
+            49,
+            0
+        ]
+    ],
+    "obstacles": [
+        {
+            "radius": 0.10000000149011612,
+            "position": [
+                0.0,
+                0.0,
+                -0.10000000149011612
+            ]
+        }
+    ]
+}

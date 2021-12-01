@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libimguiD.a  CMakeFiles/imgui.dir/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/dependencies/imgui/imgui.cpp.o CMakeFiles/imgui.dir/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/dependencies/imgui/imgui_demo.cpp.o CMakeFiles/imgui.dir/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/dependencies/imgui/imgui_draw.cpp.o
+/usr/bin/ranlib ../../lib/libimguiD.a

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="imgui"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\framework\;CMake Files\framework\imgui\;CMake Files\framework\zlib\;CMake Files\framework\libpng\;CMake Files\framework\rapidjson\;CMake Files\..\;CMake Files\..\dependencies\;CMake Files\..\dependencies\GL_platform_tools\;CMake Files\..\dependencies\GL_platform_tools\build\;CMake Files\..\dependencies\GL_platform_tools\build\cmake\;CMake Files\..\dependencies\GL_core_tools\;CMake Files\..\dependencies\GL_core_tools\build\;CMake Files\..\dependencies\GL_core_tools\build\cmake\;CMake Files\task2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui">
+				<Option output="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/lib/libimguiD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZ_SOLO"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui/Makefile&quot;  VERBOSE=1 imgui"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui/fast">
+				<Option output="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/lib/libimguiD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZ_SOLO"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui/Makefile&quot;  VERBOSE=1 imgui/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/cmake-build-debug/framework/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/dependencies/imgui/imconfig.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/dependencies/imgui/imgui.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/dependencies/imgui/imgui.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/dependencies/imgui/imgui_demo.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/dependencies/imgui/imgui_draw.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/dependencies/imgui/imgui_internal.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/dependencies/imgui/stb_rect_pack.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/dependencies/imgui/stb_textedit.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/dependencies/imgui/stb_truetype.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/framework/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\framework\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/framework/imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\framework\imgui\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/framework/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\framework\zlib\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/framework/libpng/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\framework\libpng\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/framework/rapidjson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\framework\rapidjson\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/../dependencies/GL_platform_tools/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\dependencies\GL_platform_tools\build\cmake\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/../dependencies/GL_core_tools/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\dependencies\GL_core_tools\build\cmake\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/Documents/CG2/computer-graphics-2-task2-01531697/build/cmake/task2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\task2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,183 @@
+[33mcommit f99b9e32f4dcb6f55d8318ca2544880052727e5c[m[33m ([m[1;36mHEAD -> [m[1;32msubmission[m[33m)[m
+Author: Emir <esalkic@student.tugraz.at>
+Date:   Tue Jun 11 17:27:51 2019 +0200
+
+    new
+
+[1mdiff --git a/source/task2/task2.cpp b/source/task2/task2.cpp[m
+[1mindex 0ffebf8..369b6d1 100644[m
+[1m--- a/source/task2/task2.cpp[m
+[1m+++ b/source/task2/task2.cpp[m
+[36m@@ -17,12 +17,13 @@[m [mvoid calcNormals(std::vector<float3>& normals,[m
+ [m
+     //todo ukoliko dojdje do segfaulta znam staj[m
+ [m
+[31m-    int flatten = 0;[m
+[31m-    float3 vec1 = {0,0,0};[m
+[31m-    float3 vec2 = {0,0,0};[m
+[31m-    float3 vec3 = {0,0,0};[m
+[31m-    float3 vec4 = {0,0,0};[m
+[32m+[m[32m    //todo ukoliko dojdje do segfaulta znam staj[m
+ [m
+[32m+[m[32m    int flatten = 0;[m
+[32m+[m[32m    float3 vec1 = {0, 0, 0};[m
+[32m+[m[32m    float3 vec2 = {0, 0, 0};[m
+[32m+[m[32m    float3 vec3 = {0, 0, 0};[m
+[32m+[m[32m    float3 vec4 = {0, 0, 0};[m
+ [m
+ //todo: -1[m
+     for (int x = 0; x < grid_x; ++x) {[m
+[36m@@ -30,34 +31,31 @@[m [mvoid calcNormals(std::vector<float3>& normals,[m
+ [m
+             flatten = flattenIndex(y, x, grid_y);[m
+ [m
+[31m-            if(x == 0 && y == 0){[m
+[32m+[m[32m            if (x == 0 && y == 0) {[m
+                 vec1 = positions[flatten + 1] - positions[flatten];[m
+                 vec2 = positions[flatten + grid_y] - positions[flatten];[m
+[31m-                normals[flatten] = normalize(normalize(cross(vec1,vec2)));[m
+[32m+[m[32m                normals[flatten] = normalize(normalize(cross(vec1, vec2)));[m
+                 continue;[m
+             }[m
+[31m-            if(x == 0 && y == grid_y - 1)[m
+[31m-            {[m
+[32m+[m[32m            if (x == 0 && y == grid_y - 1) {[m
+                 vec1 = positions[flatten - 1] - positions[flatten];[m
+                 vec2 = positions[flatten + grid_y] - positions[flatten];[m
+                 normals[flatten] = normalize([m
+[31m-                        normalize(cross(vec2,vec1)));[m
+[32m+[m[32m                        normalize(cross(vec2, vec1)));[m
+                 continue;[m
+             }[m
+[31m-            if(x == grid_x - 1 && y == 0)[m
+[31m-            {[m
+[32m+[m[32m            if (x == grid_x - 1 && y == 0) {[m
+                 vec1 = positions[flatten - grid_y] - positions[flatten];[m
+                 vec2 = positions[flatten + 1] - positions[flatten];[m
+                 normals[flatten] = normalize([m
+[31m-                        normalize(cross(vec1,vec2)));[m
+[32m+[m[32m                        normalize(cross(vec1, vec2)));[m
+                 continue;[m
+             }[m
+ [m
+[31m-            if(x == grid_x - 1 && y == grid_y - 1)[m
+[31m-            {[m
+[32m+[m[32m            if (x == grid_x - 1 && y == grid_y - 1) {[m
+                 vec1 = positions[flatten - 1] - positions[flatten];[m
+                 vec2 = positions[flatten - grid_y] - positions[flatten];[m
+[31m-                normals[flatten] = normalize(normalize(cross(vec1,vec2)));[m
+[32m+[m[32m                normals[flatten] = normalize(normalize(cross(vec1, vec2)));[m
+                 continue;[m
+ [m
+             }[m
+[36m@@ -65,49 +63,45 @@[m [mvoid calcNormals(std::vector<float3>& normals,[m
+ [m
+ ///////////////////// x is edges[m
+ [m
+[31m-            if(x == 0 && y > 0 && y < grid_y - 1)[m
+[31m-            {[m
+[32m+[m[32m            if (x == 0 && y > 0 && y < grid_y - 1) {[m
+                 vec1 = positions[flatten - 1] - positions[flatten];[m
+                 vec2 = positions[flatten + grid_y] - positions[flatten];[m
+                 vec3 = positions[flatten + 1] - positions[flatten];[m
+ [m
+[31m-                normals[flatten] = normalize(normalize(cross(vec3,vec2)) + normalize(cross(vec2,vec1)));[m
+[32m+[m[32m                normals[flatten] = normalize(normalize(cross(vec3, vec2)) + normalize(cross(vec2, vec1)));[m
+                 continue;[m
+             }[m
+ [m
+[31m-            if(x == grid_x - 1 && y > 0 && y < grid_y - 1)[m
+[31m-            {[m
+[32m+[m[32m            if (x == grid_x - 1 && y > 0 && y < grid_y - 1) {[m
+ [m
+                 vec1 = positions[flatten - 1] - positions[flatten];[m
+                 vec2 = positions[flatten - grid_y] - positions[flatten];[m
+                 vec3 = positions[flatten + 1] - positions[flatten];[m
+ [m
+[31m-                normals[flatten] = normalize(normalize(cross(vec1,vec2)) + normalize(cross(vec2,vec3)));[m
+[32m+[m[32m                normals[flatten] = normalize(normalize(cross(vec1, vec2)) + normalize(cross(vec2, vec3)));[m
+ [m
+                 continue;[m
+ [m
+             }[m
+ [m
+             ///////////////////// y is edges todo provjeriti forumle[m
+[31m-            if(y == 0 && x > 0 && x < grid_x - 1 )[m
+[31m-            {[m
+[32m+[m[32m            if (y == 0 && x > 0 && x < grid_x - 1) {[m
+                 vec1 = positions[flatten - grid_y] - positions[flatten];[m
+                 vec2 = positions[flatten + 1] - positions[flatten];[m
+                 vec3 = positions[flatten + grid_y] - positions[flatten];[m
+ [m
+[31m-                normals[flatten] = normalize(normalize(cross(vec1,vec2)) + normalize(cross(vec2,vec3)));[m
+[32m+[m[32m                normals[flatten] = normalize(normalize(cross(vec1, vec2)) + normalize(cross(vec2, vec3)));[m
+ [m
+                 continue;[m
+             }[m
+ [m
+[31m-            if(y == grid_y - 1 && x > 0 && x < grid_x - 1)[m
+[31m-            {[m
+[32m+[m[32m            if (y == grid_y - 1 && x > 0 && x < grid_x - 1) {[m
+ [m
+                 vec1 = positions[flatten - grid_y] - positions[flatten];[m
+                 vec2 = positions[flatten - 1] - positions[flatten];[m
+                 vec3 = positions[flatten + grid_y] - positions[flatten];[m
+ [m
+[31m-                normals[flatten] = normalize(normalize(cross(vec3,vec2)) + normalize(cross(vec2,vec1)));[m
+[32m+[m[32m                normals[flatten] = normalize(normalize(cross(vec3, vec2)) + normalize(cross(vec2, vec1)));[m
+ [m
+ [m
+                 continue;[m
+[36m@@ -115,24 +109,23 @@[m [mvoid calcNormals(std::vector<float3>& normals,[m
+ [m
+             ///////////////////// unutra is edges[m
+ [m
+[31m-            if(x > 0 && y > 0 && x < grid_x - 1 && y < grid_y - 1)[m
+[31m-            {[m
+[32m+[m[32m            if (x > 0 && y > 0 && x < grid_x - 1 && y < grid_y - 1) {[m
+                 vec1 = positions[flatten - grid_y] - positions[flatten];[m
+                 vec2 = positions[flatten + 1] - positions[flatten];[m
+                 vec3 = positions[flatten + grid_y] - positions[flatten];[m
+                 vec4 = positions[flatten - 1] - positions[flatten];[m
+ [m
+[31m-                normals[flatten] = normalize(normalize(cross(vec1,vec2)) + normalize(cross(vec2,vec3))[m
+[31m-                                             + normalize(cross(vec3,vec4)) + normalize(cross(vec4,vec1)));[m
+[32m+[m[32m                normals[flatten] = normalize(normalize(cross(vec1, vec2)) + normalize(cross(vec2, vec3))[m
+[32m+[m[32m                                             + normalize(cross(vec3, vec4)) + normalize(cross(vec4, vec1)));[m
+                 continue;[m
+             }[m
+         }[m
+[31m-    }[m
+ [m
+[31m-    // Parameters:[m
+[31m-    // normals: resulting normals[m
+[31m-    // positions: particle positions[m
+[31m-    // grid_x, grid_y: particle-grid dimensions[m
+[32m+[m[32m        // Parameters:[m
+[32m+[m[32m        // normals: resulting normals[m
+[32m+[m[32m        // positions: particle positions[m
+[32m+[m[32m        // grid_x, grid_y: particle-grid dimensions[m
+[32m+[m[32m    }[m
+ }[m
+ [m
+ float3 calcWindAcc(const float3& normal, const float3& wind_force,[m
+[36m@@ -465,6 +458,12 @@[m [mvoid fixupStep(std::vector<float3>& p_out, const std::vector<float3>& p_in,[m
+                 p_out.at(FI) += (fall1 + fall2 + fall3 + fall4) * fixup_percent;[m
+ [m
+             }[m
+[32m+[m
+[32m+[m[32m            for(int obstacle = 0; obstacle < obstacles.size(); ++obstacle)[m
+[32m+[m[32m            {[m
+[32m+[m[32m                fixCollision(p_out.at(FI), obstacles.at(obstacle));[m
+[32m+[m[32m            }[m
+[32m+[m
+         }[m
+     }[m
+ }[m
+[36m@@ -564,4 +563,4 @@[m [mvoid simulationStep(std::array<std::vector<float3>, 3>& p_buffers, int& next,[m
+     }[m
+ [m
+ //    for (auto& p : p_buffers[current]) p += gravity * dt;[m
+[31m-}[m
+\ No newline at end of file[m
+[32m+[m[32m}[m

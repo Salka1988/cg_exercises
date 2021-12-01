@@ -1,0 +1,4 @@
+/snap/clion/73/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug

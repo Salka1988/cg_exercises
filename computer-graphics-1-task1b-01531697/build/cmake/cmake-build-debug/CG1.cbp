@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CG1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\framework\;CMake Files\..\;CMake Files\..\dependencies\;CMake Files\..\dependencies\zlib\;CMake Files\..\dependencies\libpng\;CMake Files\..\dependencies\rapidjson\;CMake Files\task1b\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="framework">
+				<Option output="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/lib/libframeworkD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZ_SOLO"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/framework/../../../source/framework/.."/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/rapidjson/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 framework"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="framework/fast">
+				<Option output="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/lib/libframeworkD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZ_SOLO"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/framework/../../../source/framework/.."/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/rapidjson/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 framework/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/lib/libzlibD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZ_SOLO"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/lib/libzlibD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZ_SOLO"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libpng">
+				<Option output="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/lib/liblibpngD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZ_SOLO"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng/Makefile&quot;  VERBOSE=1 libpng"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libpng/fast">
+				<Option output="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/lib/liblibpngD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZ_SOLO"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng/Makefile&quot;  VERBOSE=1 libpng/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task1b">
+				<Option output="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/bin/task1b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/$&lt;1:bin&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZ_SOLO"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/framework/../../../source/framework/.."/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/rapidjson/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/task1b/Makefile&quot;  VERBOSE=1 task1b"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/task1b/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/task1b/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/task1b/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task1b/fast">
+				<Option output="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/bin/task1b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/$&lt;1:bin&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZ_SOLO"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/framework/../../../source/framework/.."/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib"/>
+					<Add directory="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/rapidjson/.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/task1b/Makefile&quot;  VERBOSE=1 task1b/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/task1b/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/task1b/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/task1b/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/png.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/png.h">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngerror.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngget.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngmem.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngpread.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngread.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngrio.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngrtran.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngrutil.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngset.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngtrans.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngwio.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngwrite.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngwtran.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/libpng/pngwutil.c">
+			<Option target="libpng"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/adler32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/compress.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/crc32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/crc32.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/deflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/deflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/infback.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/inffast.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/inffast.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/inflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/inflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/inftrees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/inftrees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/trees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/trees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/uncompr.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/zutil.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/dependencies/zlib/zutil.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/bounding_box.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/bvh.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/color.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/config.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/config.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/image.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/main.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/math/math.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/math/matrix.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/math/vector.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/obj.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/obj.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/obj_reader.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/obj_stream.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/pfm.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/pfm.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/png.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/png.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/rgba8.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/utils/argparse.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/utils/argparse.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/utils/color.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/utils/io.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/utils/memory.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/framework/utils/thread_pool.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/BVH.cpp">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/BVH.h">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/RayTracer.cpp">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/RayTracer.h">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/Scene.cpp">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/Scene.h">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/SceneBuilder.cpp">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/SceneBuilder.h">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/Task.cpp">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/Task.h">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/main.cpp">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/task1b.cpp">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/task1b.h">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/task_builder.cpp">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/source/task1b/task_builder.h">
+			<Option target="task1b"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/framework/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\framework\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/../dependencies/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\dependencies\zlib\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/../dependencies/libpng/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\dependencies\libpng\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/../dependencies/rapidjson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\dependencies\rapidjson\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/task1b/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\task1b\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

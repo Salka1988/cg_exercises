@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rapidjson"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\framework\;CMake Files\..\;CMake Files\..\dependencies\;CMake Files\..\dependencies\zlib\;CMake Files\..\dependencies\libpng\;CMake Files\..\dependencies\rapidjson\;CMake Files\task1b\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/rapidjson"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/rapidjson/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/rapidjson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/rapidjson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/rapidjson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/framework/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\framework\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/../dependencies/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\dependencies\zlib\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/../dependencies/libpng/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\dependencies\libpng\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/../dependencies/rapidjson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\dependencies\rapidjson\"/>
+		</Unit>
+		<Unit filename="/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/task1b/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\task1b\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

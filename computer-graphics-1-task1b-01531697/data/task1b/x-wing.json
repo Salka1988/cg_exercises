@@ -1,0 +1,41 @@
+{
+	"width": 1280,
+	"height": 720,
+	"background" : [0.03, 0.03, 0.03],
+
+	"scene":
+	{
+		"camera":
+		{
+			"w_s": 0.036,
+			"f": 0.020138391,
+			"eye": [28, 14, 12],
+			"lookat": [0, -5, -0.5],
+			"up": [0, 1, 0]
+		},
+		"lights":
+		[
+			{ "p": [1000, 800, -300], "color": [1.0, 1.0, 1.0] },
+			{ "p": [-600, 400,  800], "color": [0.1, 0.5, 0.6] },
+			{ "p": [ 600, 300,  300], "color": [0.3, 0.2, 0.1] }
+		],
+		"materials": [
+			{
+				"name": "x-wing",
+				"diffuse": [0.66, 0.66, 0.66],
+				"diffuse_map": "x-wing_D.png",
+				"specular": [0.34, 0.34, 0.34],
+				"specular_map": "x-wing_G.png",
+				"shininess": 16.0
+			}
+		],
+		"objects":
+		[
+			{
+				"type": "obj",
+				"file": "x-wing.obj",
+				"material": "x-wing"
+			}
+		]
+	}
+}

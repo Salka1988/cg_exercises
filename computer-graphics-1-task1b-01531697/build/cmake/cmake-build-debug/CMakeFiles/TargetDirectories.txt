@@ -1,0 +1,16 @@
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/CMakeFiles/rebuild_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/CMakeFiles/framework.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/CMakeFiles/edit_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib/CMakeFiles/rebuild_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib/CMakeFiles/zlib.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/zlib/CMakeFiles/edit_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng/CMakeFiles/rebuild_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng/CMakeFiles/libpng.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/libpng/CMakeFiles/edit_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/rapidjson/CMakeFiles/rebuild_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/framework/rapidjson/CMakeFiles/edit_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/task1b/CMakeFiles/rebuild_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/task1b/CMakeFiles/task1b.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/cmake/cmake-build-debug/task1b/CMakeFiles/edit_cache.dir

@@ -1,0 +1,16 @@
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/CMakeFiles/rebuild_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/CMakeFiles/edit_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/framework/CMakeFiles/rebuild_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/framework/CMakeFiles/framework.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/framework/CMakeFiles/edit_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/framework/zlib/CMakeFiles/rebuild_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/framework/zlib/CMakeFiles/zlib.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/framework/zlib/CMakeFiles/edit_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/framework/libpng/CMakeFiles/rebuild_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/framework/libpng/CMakeFiles/libpng.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/framework/libpng/CMakeFiles/edit_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/framework/rapidjson/CMakeFiles/rebuild_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/framework/rapidjson/CMakeFiles/edit_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/task1b/CMakeFiles/rebuild_cache.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/task1b/CMakeFiles/task1b.dir
+/home/salka1988/Documents/CG/computer-graphics-1-task1b-01531697/build/bulb/task1b/CMakeFiles/edit_cache.dir

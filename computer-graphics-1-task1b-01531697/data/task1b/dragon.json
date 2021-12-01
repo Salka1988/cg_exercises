@@ -1,0 +1,38 @@
+{
+	"width": 600,
+	"height": 600,
+
+	"scene":
+	{
+		"camera":
+		{
+			"w_s": 0.036,
+			"f": 0.024,
+			"eye": [-2, 7.18, 13.23],
+			"lookat": [-0.023, 5.1, 0],
+			"up": [0, 1, 0]
+		},
+
+		"lights": [
+			{ "p": [-8, 10, 12], "color": [0.8, 0.8, 0.8]},
+			{ "p": [8, 5, 12], "color": [0.13, 0.13, 0.13]},
+			{ "p": [8, 8, -8], "color": [0, 1, 1]}
+		],
+		"materials": [
+			{
+				"name": "mirror",
+				"specular": [0.34, 0.34, 0.34],
+				"mirror": true
+			}
+		],
+		"objects":
+		[
+			{
+				"type": "plane",
+				"p": [0.0, 1.0, 0.0, 0.0],
+				"material": "mirror"
+			},
+			{ "type": "obj", "file": "dragon.obj" }
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"width": 800,
+	"height": 600,
+
+	"scene":
+	{
+		"camera": {
+			"w_s": 0.028,
+			"f": 0.024
+		},
+
+		"objects": [
+			{
+				"type": "plane",
+				"point": [ 1, -2, -3],
+				"normal": [ -1, 1.5, 0.8]
+			}
+		]
+	}
+}
